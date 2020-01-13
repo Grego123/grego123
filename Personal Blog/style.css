@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('tbilisi.jpg');
+    
+}
+header{
+    background-color: lightgrey;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+main{
+   position: absolute;
+   top: 150px;
+   bottom: 0px; 
+   width: 100%;
+   
+}
+    
+
+.heading{
+    margin: 0px;
+}
+.one{
+    
+    text-decoration: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    
+}
+.inlineList li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.dropdown{
+    display: none;
+}
+.slider{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.lanchange{
+    background-color: none;
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-image: url(image2.jpg);
+    }
+  }
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url(image4.jpg);
+    }
+} 
+@media only screen and (min-width: 1200px) {
+    body{
+        background-image: url(tbilisi.jpg);
+    }
+} 
